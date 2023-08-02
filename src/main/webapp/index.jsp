@@ -62,7 +62,7 @@
 	<!-- 7.redirect -->
 	<!-- 8.url,param -->
 	<%-- <c:redirect url="https://www.google.com"></c:redirect> --%>
-	<c:url var="myurl" value="http://www.google.com/search">
+	<%-- <c:url var="myurl" value="http://www.google.com/search">
 		<c:param name="q" value="center for good governance"></c:param>
 	</c:url>
 
@@ -70,7 +70,7 @@
 	<h1>
 		<c:out value="${myurl}"></c:out>
 	</h1>
-	<c:redirect url="${myurl}"></c:redirect>
+	<c:redirect url="${myurl}"></c:redirect> --%>
 
 
 
